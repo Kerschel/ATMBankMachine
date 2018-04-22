@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="bankpage" prefHeight="499.0" prefWidth="688.0" stylesheets="@../css/bankstyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DepositController">
+    <children>
+        <AnchorPane layoutX="238.0" layoutY="174.0" prefHeight="248.0" prefWidth="285.0">
+            <children>
+                <Button fx:id="one" layoutX="23.0" layoutY="26.0" mnemonicParsing="false" onAction="#inputValue" prefHeight="32.0" prefWidth="43.0" text="1" />
+                <Button fx:id="two" layoutX="113.0" layoutY="28.0" mnemonicParsing="false" onAction="#inputValue" prefHeight="32.0" prefWidth="43.0" text="2" />
+                <Button fx:id="three" layoutX="208.0" layoutY="28.0" mnemonicParsing="false" onAction="#inputValue" prefHeight="32.0" prefWidth="43.0" text="3" />
+                <Button fx:id="four" layoutX="23.0" layoutY="82.0" mnemonicParsing="false" onAction="#inputValue" prefHeight="32.0" prefWidth="43.0" text="4" />
+                <Button fx:id="five" layoutX="113.0" layoutY="82.0" mnemonicParsing="false" onAction="#inputValue" prefHeight="32.0" prefWidth="43.0" text="5" />
+                <Button fx:id="six" layoutX="208.0" layoutY="82.0" mnemonicParsing="false" onAction="#inputValue" prefHeight="32.0" prefWidth="43.0" text="6" />
+                <Button fx:id="seven" layoutX="23.0" layoutY="145.0" mnemonicParsing="false" onAction="#inputValue" prefHeight="32.0" prefWidth="43.0" text="7" />
+                <Button fx:id="eight" layoutX="113.0" layoutY="145.0" mnemonicParsing="false" onAction="#inputValue" prefHeight="32.0" prefWidth="43.0" text="8" />
+                <Button fx:id="nine" layoutX="208.0" layoutY="145.0" mnemonicParsing="false" onAction="#inputValue" prefHeight="32.0" prefWidth="43.0" text="9" />
+                <Button layoutX="26.0" layoutY="197.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="43.0" />
+                <Button fx:id="zero" layoutX="113.0" layoutY="197.0" mnemonicParsing="false" onAction="#inputValue" prefHeight="32.0" prefWidth="43.0" text="0" />
+                <Button layoutX="208.0" layoutY="197.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="43.0" />
+            </children>
+        </AnchorPane>
+        <TextField fx:id="amountValue" layoutX="268.0" layoutY="120.0" prefHeight="54.0" prefWidth="225.0" />
+        <Button layoutX="268.0" layoutY="434.0" mnemonicParsing="false" onAction="#depositCash" prefHeight="44.0" prefWidth="116.0" text="Confirm" />
+        <Button layoutX="397.0" layoutY="434.0" mnemonicParsing="false" onAction="#returnToHomePageButtonClick" prefHeight="44.0" prefWidth="139.0" text="Return to home Page" />
+    </children>
+
+</AnchorPane>

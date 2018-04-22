@@ -1,0 +1,21 @@
+#bankpage{
+    -fx-background-image:url('../images/bankback.jpg ');
+    -fx-background-size:cover;
+}
+
+
+   .button {
+
+    -fx-background-radius: 30px;
+    -fx-background-insets: 5px;
+
+
+   }
+   .button:hover:armed {
+    -fx-background-color:linear-gradient(blue,silver);
+    -fx-base: #706e6a;
+    -fx-wrap-text: true;
+    -fx-backgroundRadius: 30;
+     }
+
+

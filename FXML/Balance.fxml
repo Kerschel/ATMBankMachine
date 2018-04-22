@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<AnchorPane fx:id="bankpage" prefHeight="449.0" prefWidth="688.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InquiryController">
+   <children>
+      <TitledPane alignment="CENTER" animated="false" layoutX="14.0" layoutY="113.0" prefHeight="257.0" prefWidth="297.0" text="Account Information">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="205.0" prefWidth="191.0">
+               <children>
+                  <Label fx:id="name" layoutX="96.0" layoutY="18.0" text="Name">
+                     <font>
+                        <Font size="20.0" />
+                     </font></Label>
+                  <Label fx:id="date" layoutX="93.0" layoutY="173.0" text="Date">
+                     <font>
+                        <Font size="20.0" />
+                     </font></Label>
+                  <Label fx:id="account" layoutX="93.0" layoutY="71.0" text="Account">
+                     <font>
+                        <Font size="20.0" />
+                     </font></Label>
+                  <Label fx:id="balance" layoutX="92.0" layoutY="124.0" text="Balance">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TitledPane>
+      <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" layoutX="360.0" layoutY="113.0" prefHeight="265.0" prefWidth="314.0" text="Withdrawals">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="188.0" prefWidth="244.0">
+               <children>
+                  <TableView fx:id="table" layoutX="-5.0" layoutY="-1.0" prefHeight="248.0" prefWidth="323.0">
+                    <columns>
+                        <TableColumn fx:id="activity" prefWidth="110.0" text="Activity" />
+                      <TableColumn fx:id="date2" minWidth="0.0" prefWidth="92.0" text="Date" />
+                      <TableColumn fx:id="amount" prefWidth="118.0" text="Amount" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+         </content>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TitledPane>
+      <Button layoutX="618.0" layoutY="402.0" mnemonicParsing="false" text="Back" onAction="#back" />
+   </children>
+    <stylesheets>
+        <URL value="@../css/bankstyle.css" />
+    </stylesheets>
+</AnchorPane>

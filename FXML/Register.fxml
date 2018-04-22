@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<VBox fx:id="registerback" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="886.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegisterController">
+   <children>
+      <AnchorPane prefHeight="111.0" prefWidth="424.0">
+         <children>
+            <Label layoutX="304.0" layoutY="42.0" prefHeight="17.0" prefWidth="78.0" text="Full Name" />
+            <TextField fx:id="name" layoutX="395.0" layoutY="38.0" prefHeight="25.0" prefWidth="330.0" promptText="First Name " />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="111.0" prefWidth="424.0">
+         <children>
+            <Label layoutX="308.0" layoutY="36.0" text="Address" />
+            <TextField fx:id="address" layoutX="394.0" layoutY="32.0" prefHeight="25.0" prefWidth="330.0" promptText="Trinidad and Tobago" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="111.0" prefWidth="424.0">
+         <children>
+            <Label layoutX="303.0" layoutY="26.0" text="Enter Pin" />
+            <TextField fx:id="pinshow" layoutX="394.0" layoutY="22.0" prefHeight="25.0" prefWidth="330.0" />
+            <PasswordField fx:id="pinhide" layoutX="394.0" layoutY="22.0" prefHeight="25.0" prefWidth="330.0" promptText="Your pin" />
+            <ToggleButton fx:id="pwshow" layoutX="697.0" layoutY="22.0" mnemonicParsing="false" onAction="#togglevisiblePassword" prefHeight="25.0" prefWidth="27.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="111.0" prefWidth="424.0">
+         <children>
+            <Label layoutX="295.0" layoutY="30.0" text="Opening Balance" />
+            <TextField fx:id="openbalance" layoutX="391.0" layoutY="26.0" prefHeight="25.0" prefWidth="330.0" promptText="\$" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="111.0" prefWidth="424.0">
+         <children>
+            <Label layoutX="301.0" layoutY="30.0" text="Account type" />
+            <MenuButton fx:id="accountType" layoutX="395.0" layoutY="26.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="330.0" text="Account">
+              <items>
+                <MenuItem fx:id="savingsmenu" mnemonicParsing="false" onAction="#savings" text="Savings">
+                     <graphic>
+                        <ImageView fx:id="stuff" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/181100.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></MenuItem>
+                <MenuItem fx:id="checkingsmenu" mnemonicParsing="false" onAction="#checkings" text="Checkings">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/checking.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></MenuItem>
+              </items>
+            </MenuButton>
+         </children>
+      </AnchorPane>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <ImageView fitHeight="150.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../images/bank.png" />
+               </image>
+            </ImageView>
+         </center>
+         <top>
+            <Label text="Banking Made Easy" BorderPane.alignment="CENTER" />
+         </top>
+         <left>
+            <Label text=" We save the money" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Label text="We save the money " BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <Label text="You Spend It" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+      <AnchorPane prefHeight="111.0" prefWidth="424.0">
+         <children>
+            <Button fx:id="submits" layoutX="399.0" layoutY="23.0" mnemonicParsing="false" onAction="#submitForm" prefHeight="40.0" prefWidth="89.0" text="Submit" />
+         </children>
+      </AnchorPane>
+   </children>
+    <stylesheets>
+        <URL value="@../css/register.css" />
+    </stylesheets>
+</VBox>

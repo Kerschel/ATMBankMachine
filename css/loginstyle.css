@@ -1,0 +1,72 @@
+#loginback {
+    -fx-background-image:url('../images/logs.jpg ');
+    -fx-background-size:cover;
+    }
+
+#cash.text-field {
+          -fx-background-color: #a9a9a9 , none , none;
+          -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+          -fx-border-color:  black;
+
+      }
+
+
+ .text-field {
+     -fx-background-color: #a9a9a9 , none , none;
+     -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+     -fx-border-color:  transparent  transparent red transparent;
+
+ }
+#register{
+}
+ .text-field:focused {
+     -fx-background-color: #a9a9a9 , none , none;
+     -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+     -fx-border-color:  transparent  transparent gold transparent;
+ }
+
+.button{
+-fx-text-fill: black;
+-fx-wrap-text: true;
+-fx-backgroundRadius: 10;
+}
+
+#enter.button{
+-fx-base: #1a9b29;
+}
+
+#clear.button{
+-fx-base: #dbce1a;
+}
+
+#cancel.button{
+ -fx-base: #bc340f;
+}
+
+#pinvalue{
+-fx-text-fill: white;
+-fx-wrap-text: true;
+-fx-backgroundRadius: 10;
+}
+
+#namevalue{
+-fx-text-fill:white;
+}
+
+#register.button{
+ -fx-background-radius: 30px;
+    -fx-background-insets: 5px;
+
+  -fx-font-family: Arial;
+                   -fx-color: #679bef;
+
+                   -fx-padding: 10px 20px 10px 20px;
+
+           }
+
+   #register.button:hover{
+-fx-color: #ef66ef;
+    -fx-wrap-text: true;
+    -fx-backgroundRadius: 30;
+     }
+

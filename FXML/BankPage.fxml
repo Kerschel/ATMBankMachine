@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<AnchorPane fx:id="bankpage" prefHeight="449.0" prefWidth="688.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BankPage">
+    <stylesheets>
+        <URL value="@../css/bankstyle.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="withdraw" layoutX="14.0" layoutY="135.0" mnemonicParsing="false" onAction="#launchWithdrawalPage" prefHeight="61.0" prefWidth="266.0" text="Cash Withdrawal" />
+      <Button fx:id="transfer" layoutX="14.0" layoutY="244.0" mnemonicParsing="false" onAction="#transferButton" prefHeight="61.0" prefWidth="266.0" text="Funds Transfer" />
+      <Button fx:id="deposit" layoutX="418.0" layoutY="132.0" mnemonicParsing="false" onAction="#depositButton" prefHeight="67.0" prefWidth="266.0" text="Deposit" />
+      <Button fx:id="inquiry" layoutX="418.0" layoutY="244.0" mnemonicParsing="false" onAction="#balanceInquire" prefHeight="61.0" prefWidth="266.0" text="Balance Inquiry" />
+      <Button fx:id="cheque" layoutX="418.0" layoutY="360.0" mnemonicParsing="false" onAction="#createCheque" prefHeight="61.0" prefWidth="266.0" text="Create Cheque" />
+      <Button fx:id="change" layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#changePin" prefHeight="61.0" prefWidth="266.0" text="About Us" textFill="#18a18a" />
+      <Button fx:id="logout" layoutX="293.0" layoutY="421.0" mnemonicParsing="false" onAction="#log" prefHeight="67.0" prefWidth="103.0" text="Log out" textFill="#180ad7" />
+      <Button fx:id="payment" onAction="#paymentButton" layoutX="315.0" layoutY="84.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="81.0" text="Payment" />
+      <!--<JFXTextField alignment="CENTER" editable="false" labelFloat="true" layoutX="85.0" layoutY="22.0" prefHeight="25.0" prefWidth="444.0" text="Welcome To Our Online Menu">-->
+         <!--<font>-->
+            <!--<Font size="18.0" />-->
+         <!--</font>-->
+      <!--</JFXTextField>-->
+   </children>
+</AnchorPane>

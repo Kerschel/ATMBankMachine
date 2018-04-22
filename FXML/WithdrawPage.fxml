@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="bankpage" prefHeight="449.0" prefWidth="688.0" stylesheets="@../css/bankstyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WithdrawController">
+   <children>
+      <Button layoutX="14.0" layoutY="135.0" mnemonicParsing="false" onAction="#makeWithdrawal" prefHeight="61.0" prefWidth="266.0" text="60.00" />
+      <Button layoutX="14.0" layoutY="244.0" mnemonicParsing="false" onAction="#makeWithdrawal" prefHeight="61.0" prefWidth="266.0" text="200.00" />
+      <Button layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#makeWithdrawal" prefHeight="61.0" prefWidth="266.0" text="600.00" />
+      <Button layoutX="418.0" layoutY="132.0" mnemonicParsing="false" onAction="#makeWithdrawal" prefHeight="61.0" prefWidth="266.0" text="100.00" />
+      <Button layoutX="418.0" layoutY="244.0" mnemonicParsing="false" onAction="#makeWithdrawal" prefHeight="61.0" prefWidth="266.0" text="500.00" />
+      <Button layoutX="418.0" layoutY="360.0" mnemonicParsing="false" onAction="#goToOtherAmountPage" prefHeight="61.0" prefWidth="266.0" text="Other Amount" />
+   </children>
+</AnchorPane>

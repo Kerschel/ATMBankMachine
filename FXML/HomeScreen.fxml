@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginback" prefHeight="484.0" prefWidth="732.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BankMain">
+   <children>
+      <Separator layoutX="370.0" layoutY="-3.0" opacity="0.39" orientation="VERTICAL" prefHeight="491.0" prefWidth="6.0" />
+      <Button fx:id="enter" layoutX="645.0" layoutY="300.0" mnemonicParsing="false" onAction="#Login" prefHeight="34.0" prefWidth="53.0" text="Enter" />
+      <Button fx:id="clear" layoutX="645.0" layoutY="252.0" mnemonicParsing="false" onAction="#clear" prefHeight="34.0" prefWidth="53.0" text="Clear" />
+      <Button fx:id="cancel" layoutX="645.0" layoutY="205.0" mnemonicParsing="false" onAction="#clear" prefHeight="34.0" prefWidth="53.0" text="Cancel" />
+      <Label layoutX="27.0" layoutY="41.0" text="Welcome to KJ and GR Banking">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#eebfbf" />
+                  <Stop color="#edc0cf" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="77.0" layoutY="357.0" text="Thank you for Banking" textFill="#f8f8f8">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="498.0" layoutY="103.0" text="Enter Pin" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="one" layoutX="423.0" layoutY="204.0" mnemonicParsing="false" onAction="#setPin" prefHeight="32.0" prefWidth="43.0" text="1" />
+      <Button fx:id="two" layoutX="498.0" layoutY="205.0" mnemonicParsing="false" onAction="#setPin" prefHeight="32.0" prefWidth="43.0" text="2" />
+      <Button fx:id="three" layoutX="574.0" layoutY="204.0" mnemonicParsing="false" onAction="#setPin" prefHeight="32.0" prefWidth="43.0" text="3" />
+      <Button fx:id="six" layoutX="574.0" layoutY="253.0" mnemonicParsing="false" onAction="#setPin" prefHeight="32.0" prefWidth="43.0" text="6" />
+      <Button fx:id="five" layoutX="498.0" layoutY="254.0" mnemonicParsing="false" onAction="#setPin" prefHeight="32.0" prefWidth="43.0" text="5" />
+      <Button fx:id="four" layoutX="423.0" layoutY="253.0" mnemonicParsing="false" onAction="#setPin" prefHeight="32.0" prefWidth="43.0" text="4" />
+      <Button fx:id="nine" layoutX="574.0" layoutY="301.0" mnemonicParsing="false" onAction="#setPin" prefHeight="32.0" prefWidth="43.0" text="9" />
+      <Button fx:id="eight" layoutX="498.0" layoutY="302.0" mnemonicParsing="false" onAction="#setPin" prefHeight="32.0" prefWidth="43.0" text="8" />
+      <Button fx:id="seven" layoutX="423.0" layoutY="301.0" mnemonicParsing="false" onAction="#setPin" prefHeight="32.0" prefWidth="43.0" text="7" />
+      <Button layoutX="574.0" layoutY="349.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="43.0" />
+      <Button fx:id="zero" layoutX="498.0" layoutY="350.0" mnemonicParsing="false" onAction="#setPin" prefHeight="32.0" prefWidth="43.0" text="0" />
+      <Button layoutX="423.0" layoutY="349.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="43.0" />
+      <Button layoutX="645.0" layoutY="349.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="53.0" />
+      <TextField fx:id="pinvalue" alignment="CENTER" layoutX="441.0" layoutY="127.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="register" layoutX="483.0" layoutY="423.0" mnemonicParsing="false" onAction="#Register" prefHeight="51.0" prefWidth="117.0" text="Register" />
+      <Label layoutX="512.0" layoutY="25.0" text="Name" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="namevalue" alignment="CENTER" layoutX="441.0" layoutY="58.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+      <Label fx:id="credentials" layoutX="492.0" layoutY="173.0" prefHeight="17.0" prefWidth="141.0" textFill="#e11414" />
+      <ImageView fitHeight="182.0" fitWidth="188.0" layoutX="95.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/062-512.png" />
+         </image>
+      </ImageView>
+
+   </children>
+    <stylesheets>
+        <URL value="@../css/loginstyle.css" />
+    </stylesheets>
+</AnchorPane>

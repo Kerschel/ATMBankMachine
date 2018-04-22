@@ -1,0 +1,19 @@
+#registerback {
+    -fx-background-image:url('../images/mood.jpg ');
+    -fx-background-size:cover;
+    }
+
+.toggle-button {
+  -fx-background-image: url('../images/show.png');
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-background-size:cover;
+  -fx-focus-color: transparent;
+  -fx-background:transparent;
+}
+
+.toggle-button:selected {
+-fx-focus-color: transparent;
+  -fx-background-image: url('../images/hide.png');
+}
+.root { -fx-focus-color: transparent; }
