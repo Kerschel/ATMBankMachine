@@ -1,7 +1,7 @@
 # ATMBankMachine
 This application simulates how a ATM machine works with remote banking servers
 
-#Screenshots
+# Screenshots
 
 ![home](https://user-images.githubusercontent.com/17114163/39091632-e4d18a9c-45c5-11e8-94ba-76afdc1297fc.PNG)
 ![registry](https://user-images.githubusercontent.com/17114163/39091633-e8857068-45c5-11e8-9740-275f2e37bd65.PNG)
@@ -10,4 +10,4 @@ This application simulates how a ATM machine works with remote banking servers
 
 
 
-#Original creation by Kerschel James and Gerard Rique
+# Original creation by Kerschel James and Gerard Rique
