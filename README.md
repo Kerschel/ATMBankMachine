@@ -1,15 +1,16 @@
 # ATMBankMachine
 This application simulates how a ATM machine works with remote banking servers
 
-Features included in our software are:
-Cash withdrawal
-Cash deposit
-Create Cheque
-Fund Transfer
-Account Inquiry 
+- Features included in our software are:
+* Cash withdrawal
+* Cash deposit
+* Create Cheque
+* Fund Transfer
+* Account Inquiry 
+* Pessimistic Concurrency Control (Locking)
 
 Also I added the ability for other applications to connect to it and make payments as if they were retailers.
-For example my Inventory Car parts application at https://github.com/Kerschel/Inventory-Management-using-RMI can be connected to it and make sales.
+For example my Inventory Car parts application at [link to Inventory app](https://github.com/Kerschel/Inventory-Management-using-RMI) can be connected to it and make sales.
 
 # Screenshots
 
