@@ -1,7 +1,7 @@
 # ATMBankMachine
 This application simulates how a ATM machine works with remote banking servers
 
-- Features included in our software are:
+# Features included in our software are:
 * Cash withdrawal
 * Cash deposit
 * Create Cheque
