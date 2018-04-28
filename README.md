@@ -1,5 +1,5 @@
 # ATMBankMachine
-This application simulates how a ATM machine works with remote banking servers
+This application simulates how a ATM machine works with remote banking servers. Created using JavaFX. [See more of my projects](https://github.com/Kerschel)
 
 # Features included in our software are:
 * Cash withdrawal
